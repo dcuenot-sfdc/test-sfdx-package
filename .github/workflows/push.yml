@@ -7,6 +7,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - id: foo
-        uses: dcuenot-sfdc/sfdx-package@v1.0.4
+        uses: dcuenot-sfdc/sfdx-package@latest
         with:
           devhub-url: ${{ secrets.DEVHUB_URL }}
